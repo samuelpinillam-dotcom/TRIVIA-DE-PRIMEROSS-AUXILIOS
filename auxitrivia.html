@@ -1,70 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auxi-Trivia.Aprende primeros auxilios</title>
-    <link rel="stylesheet" href="auxitrivia.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AuxiTrivia - Página Principal</title>
+  <link rel="stylesheet" href="auxitrivia.css">
 </head>
 <body>
-    <header>
-        <h1>Auxi-Trivia</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">inicio</a></li>
-                <li><a href="#sobre-mi">sobre mi</li>
-                <li><a href="#contacto">contacto</li>
-                <li><a href="#trivia">Auxi-Trivia</li>
-            </ul>
-        </nav>
-    </header>
+  <header class="site-header">
+    <h1>AuxiTrivia</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#biografia">Biografía</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+      <a href="trivia.html">Jugar Trivia</a>
+    </nav>
+  </header>
 
-    <main>
-        <section id="inicio">
-            <h2>¿estas listo para salvar vidas?</h2>
-            <p>bienvenido a Auxi-Trivia una app para aprender primeros
-                 auxilios de forma divertida.</p>
-                 <button>iniciar trivia</button>
-        </section>
+  <main>
+    <section id="inicio" class="card">
+  <h2>Bienvenido</h2>
+  <p>
+    Bienvenido a <strong>AuxiTrivia</strong>, una aplicación educativa que te enseña
+    primeros auxilios de manera divertida e interactiva.
+  </p>
 
-        <section id="sobre-mi">
-         <h2>sobre mi</h2>
-         <p>soy samuel pinill martin, estudiante del colegio distrital juan de corra. Este proyecto busca enseñar promeros auxilioa de forma accesible y entretenida.</p>
-          </section>
+ 
+  <img src="botiquin.jpg" alt="Botiquín AuxiTrivia" class="logo-img">
 
-          <section id="contactos">
-             <h2>contacto</h2>
-             <form action="#" method="post">
-             <label for="nombre">nombre:</label>
-             <input type="text" id="nombre" name="nombre" required>
-              <label for="email">correo electronico:</label>
-              <input type="email" id="email" name="email" required>
-              <label for="mensaje">mensaje:</label>
-              <textarea id="mensaje" name="mensaje" requiered></textarea>
-              <button type="submit">enviar</button>
+  <a href="trivia.html" class="btn">Iniciar Trivia</a>
+</section>
 
-             </form>
-          </section>
 
-          <section id="trivia">
-            <h2> trivia de primeros auxilios</h2>
-            <div id class="pregunta">
-            <p id="texto-pregunta"> ¿cual es el primer paso al atender una persona inconsiente?</p>
-            <ul>
-                <li><span></span></li>
-                <li><span>verificar si respira</span></li>
-                <li><span>dar agua</span></li>
-                <li><span>movera rapidamente</span></li>
-                  
+    <section id="biografia" class="card">
+      <h2>Biografía</h2>
+      <p><strong>Desarrollador:</strong> Samuel Pinilla Martin</p>
+      <p>
+        Soy un estudiante del SENA apasionado por la tecnología y el aprendizaje interactivo.
+        Este proyecto combina conocimientos de primeros auxilios con herramientas web modernas.
+      </p>
+    </section>
 
-                </ul>
-                <button class="verificar">verificar</button>
-                <p id="resultadod">resultado</p>
-                </div>
-          </section>
-    </main>
-    
-    
+    <section id="proyectos" class="card">
+      <h2>Proyectos</h2>
+      <ul style="text-align:left; display:inline-block;">
+        <li><strong>AuxiTrivia:</strong> trivia educativa de primeros auxilios (este proyecto)</li>
+        <li>trivias que refuercen los conocimientos comunes para jovenes</li>
+        <li>App de aprendizaje sobre salud y bienestar</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="card">
+      <h2>Contacto</h2>
+      <form id="contact-form" novalidate>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+        <p id="feedback" class="hidden"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 AuxiTrivia — Proyecto educativo de primeros auxilios</p>
+  </footer>
+
+  <script src="auxitrivia.js"></script>
 </body>
 </html>
