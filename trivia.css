@@ -8,7 +8,6 @@ body {
   padding: 0;
 }
 
-/* Header */
 header {
   text-align: center;
   background: #101625;
@@ -21,14 +20,14 @@ header h1 {
   color: #48c4ff;
 }
 
-/* Contenedor principal */
+
 .container {
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
 }
 
-/* Tarjeta principal */
+
 .card {
   background: rgba(30, 40, 70, 0.8);
   border-radius: 15px;
@@ -37,7 +36,6 @@ header h1 {
   text-align: center;
 }
 
-/* Botones */
 .btn {
   background: #48c4ff;
   color: #0d1117;
@@ -61,7 +59,7 @@ header h1 {
   color: #48c4ff;
 }
 
-/* Pregunta */
+
 #question {
   font-size: 1.3rem;
   font-weight: 600;
@@ -69,7 +67,7 @@ header h1 {
   color: #e6f4ff;
 }
 
-/* Opciones tipo barra */
+
 #choices {
   display: flex;
   flex-direction: column;
@@ -93,7 +91,7 @@ header h1 {
   background: linear-gradient(90deg, #2f5ba7, #3977d3);
 }
 
-/* Colores de respuesta */
+
 .correct {
   background: #1e8f3b !important;
 }
@@ -102,7 +100,7 @@ header h1 {
   background: #a51f1f !important;
 }
 
-/* Zona de controles */
+
 .controls {
   margin-top: 25px;
   display: flex;
@@ -125,10 +123,4 @@ footer {
 
 .hidden {
   display: none;
-}
-.logo-img {
-  width: 20px;
-  display: block;
-  margin: 20px auto 15px auto;
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
 }

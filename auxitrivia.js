@@ -1,4 +1,4 @@
-// Validación simple del formulario de contacto
+
 document.getElementById("contact-form").addEventListener("submit", e => {
   e.preventDefault();
 

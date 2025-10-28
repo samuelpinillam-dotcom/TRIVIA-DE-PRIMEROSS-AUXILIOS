@@ -1,4 +1,4 @@
-/* Estilo principal de la página de inicio AuxiTrivia */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
@@ -11,7 +11,7 @@ body {
   text-align: center;
 }
 
-/* Header */
+
 header {
   background: #003c78;
   color: #fff;
@@ -39,7 +39,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Contenido */
+
 main {
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ main {
   margin-top: 30px;
 }
 
-/* Tarjetas */
+
 .card {
   background: #fff;
   border-radius: 15px;
@@ -63,14 +63,13 @@ main {
   margin-bottom: 15px;
 }
 
-/* Imagen del desarrollador */
 .avatar {
   width: 120px;
   border-radius: 50%;
   margin-top: 15px;
 }
 
-/* Botón principal */
+
 .btn {
   background: #007bff;
   color: #fff;
@@ -88,7 +87,7 @@ main {
   transform: scale(1.05);
 }
 
-/* Contacto */
+
 form {
   display: flex;
   flex-direction: column;
