@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>AuxiTrivia - Página Principal</title>
-  <link rel="stylesheet" href="auxitrivia.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <header class="site-header">
@@ -14,23 +14,27 @@
       <a href="#biografia">Biografía</a>
       <a href="#proyectos">Proyectos</a>
       <a href="#contacto">Contacto</a>
-      <a href="trivia.html">Jugar Trivia</a>
     </nav>
   </header>
 
   <main>
-    <section id="inicio" class="card">
+ <section id="inicio" class="card">
   <h2>Bienvenido</h2>
   <p>
-    Bienvenido a <strong>AuxiTrivia</strong>, una aplicación educativa que te enseña
-    primeros auxilios de manera divertida e interactiva.
+    Bienvenido a <strong>AuxiTrivia</strong>, una app educativa donde podrás aprender
+    sobre <strong>primeros auxilios, seguridad</strong> y <strong>trabajo en equipo</strong> 
+    de forma divertida e interactiva.
   </p>
 
- 
   <img src="botiquin.jpg" alt="Botiquín AuxiTrivia" class="logo-img">
 
-  <a href="trivia.html" class="btn">Iniciar Trivia</a>
+  <div class="trivia-buttons">
+    <a href="trivia1.html" class="btn">Trivia 1 — Primeros Auxilios</a>
+    <a href="trivia2.html" class="btn green">Trivia 2 — Seguridad</a>
+    <a href="trivia3.html" class="btn orange">Trivia 3 — Auxiliares</a>
+  </div>
 </section>
+
 
 
     <section id="biografia" class="card">
@@ -73,6 +77,6 @@
     <p>© 2025 AuxiTrivia — Proyecto educativo de primeros auxilios</p>
   </footer>
 
-  <script src="auxitrivia.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
